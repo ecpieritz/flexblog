@@ -6,7 +6,7 @@
 </p>
 
 ## 📖 About
-<p>Simple MPA from a blog created using flexbox.</p>
+<p>Simple SPA from a blog created using flexbox.</p>
 
 ---
 
