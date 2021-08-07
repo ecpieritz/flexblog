@@ -4,6 +4,7 @@
 :root{
   --light-black: #222222;
   --blue: #122ab2;
+  --light-blue: #2c70ff;
   --white: #ffffff;
 }
 
@@ -53,4 +54,44 @@ img{
 .superinfo a,
 .superinfo p{
   margin: 0 10px 10px 10px;
+}
+
+/* HEADER */
+.menu-bg{
+  background-color: var(--light-blue);
+}
+
+.menu{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a{
+  color: var(--white);
+}
+
+.menu-logo{
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-nav ul{
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.menu-nav a{
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+
+.menu-nav a:hover{
+  color: var(--blue);
 }
