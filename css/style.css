@@ -193,7 +193,6 @@ img{
 
 /* PRICES */
 .price{
-  max-width: 960px;
   background-color: var(--light-gray);
   padding: 60px;
   display: flex;
@@ -202,7 +201,7 @@ img{
 }
 
 .price-item{
-  flex: 1;
+  flex: 1 1 260px;
   padding: 20px;
   margin: 10px;
   min-width: 260px;
