@@ -4,9 +4,13 @@
 :root{
   --light-black: #222222;
   --gray: #7c7c7c;
+  --light-gray: #f7f7f7;
+  --white: #ffffff;
   --blue: #122ab2;
   --light-blue: #2c70ff;
-  --white: #ffffff;
+  --purple: #ae81ff;
+  --pink: #f9265e;
+  --cyan: #66d9eb;
 }
 
 *{
@@ -138,4 +142,45 @@ img{
   flex: 1 1 160px;
   margin: 0 10px;
 
+}
+
+/* PRODUCTS */
+.products{
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.products h2{
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+}
+
+.product-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.products-item{
+  flex: 1 1 175px;
+  margin: 10px;
+}
+
+.products-item h3{
+  font-size: 3em;
+  color: var(--gray);
+  background-color: var(--light-gray);
+  padding: 40px 20px;
+}
+
+.purple{
+  border-top: 8px  solid var(--purple);
+}
+
+.pink{
+  border-top: 8px  solid var(--pink);
+}
+
+.cyan{
+  border-top: 8px  solid var(--cyan);
 }
