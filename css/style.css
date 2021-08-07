@@ -11,6 +11,12 @@
   --purple: #ae81ff;
   --pink: #f9265e;
   --cyan: #66d9eb;
+  --copper: #f37c1a;
+  --light-copper: #f0cdb0;
+  --light-silver: #e2e0e0;
+  --gold: #f5ad11;
+  --light-gold: #f5ddaa;
+  
 }
 
 *{
@@ -183,4 +189,118 @@ img{
 
 .cyan{
   border-top: 8px  solid var(--cyan);
+}
+
+/* PRICES */
+.price{
+  max-width: 960px;
+  background-color: var(--light-gray);
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.price-item{
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  min-width: 260px;
+}
+
+.price-item h2{
+  font-size: 3em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.price-item span{
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  border-top: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
+}
+
+.price-item sup{
+  font-size: 1.5rem;
+}
+
+.price-item ul{
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25em;
+  font-style: italic;
+  color: var(--gray);
+}
+
+.price-item li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price-item li::after{
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: var(--blue);
+  border-radius: 50%;
+}
+
+.price-item a{
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid;
+  color: var(--light-black);
+  font-weight: bold;
+  font-size: 2.25em;
+  text-align: center;
+  padding: 15px 0;
+}
+
+@media (max-width: 800px){
+  .price{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .price .price-item:nth-child(3){
+    order: -2;
+  }
+
+  .price .price-item:nth-child(2){
+    order: -1;
+  }
+}
+
+.copper-bg{
+  background-color: var(--light-copper);
+}
+
+.silver-bg{
+  background-color: var(--light-silver);
+}
+
+.gold-bg{
+  background-color: var(--light-gold);
+}
+
+.text-copper{
+  color: var(--copper);
+}
+
+.text-silver{
+  color: var(--gray);
+}
+
+.text-gold{
+  color: var(--gold);
 }
