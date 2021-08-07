@@ -2,11 +2,11 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "https://github.com/ecpieritz/f" width = "801">
+  <img src = "https://github.com/ecpieritz/flexblog/blob/main/img/print-flexblog.jpg?raw=true" width = "800">
 </p>
 
 ## 📖 About
-<p>Simple SPA from a blog created using flexbox.</p>
+<p>Simple responsive SPA from a blog created using flexbox.</p>
 
 ---
 
