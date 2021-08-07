@@ -3,14 +3,19 @@
 
 :root{
   --light-black: #222222;
+  --blue: #122ab2;
+  --white: #ffffff;
 }
 
 *{
-  font-family: 'Nunito', sans-serif;
   margin: 0px;
   padding: 0px;
-  color: var(--light-black);
+  font-family: 'Nunito', sans-serif;
   box-sizing: border-box;
+}
+
+body{
+  color: var(--light-black);
 }
 
 ul{
@@ -26,4 +31,26 @@ img{
   max-width: 100%;
 }
 
+/* SUPERINFO */
+.superinfo-bg{
+  background-color: var(--blue);
+  color: var(--white);
+}
 
+.superinfo{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.superinfo a{
+  color: var(--white);
+}
+
+.superinfo a,
+.superinfo p{
+  margin: 0 10px 10px 10px;
+}
