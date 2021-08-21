@@ -12,6 +12,7 @@
 
 ## 🛠 Technologies used
 - CSS
+  - Flexbox CSS
 - HTML
 
 ---
