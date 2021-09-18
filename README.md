@@ -2,7 +2,7 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "https://github.com/ecpieritz/flexblog/blob/main/img/print-flexblog.jpg?raw=true" width = "800">
+  <img src = "https://github.com/ecpieritz/flexblog/blob/main/img/print-flexblog.jpg?raw=true" width = "700">
 </p>
 
 ## 📖 About
